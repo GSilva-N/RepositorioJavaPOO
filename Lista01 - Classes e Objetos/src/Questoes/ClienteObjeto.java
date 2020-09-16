@@ -9,6 +9,7 @@ public class ClienteObjeto {
 		
 		ClienteClasse cliente02 = new ClienteClasse("Maria da Silva", 101, "Rua da Árvore", 955552222);
 		cliente02.dadosCliente();
+		
 
 	}
 

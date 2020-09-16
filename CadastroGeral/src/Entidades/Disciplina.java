@@ -1,0 +1,38 @@
+package Entidades;
+
+public class Disciplina {
+	
+	public String nomeDisciplina;
+	public int nivelDisciplina;
+	
+	public Disciplina(String nomeDisciplina) {
+		
+		this.nomeDisciplina = nomeDisciplina;
+	}
+
+	public Disciplina(String nomeDisciplina, int nivelDisciplina) {
+		
+		this.nomeDisciplina = nomeDisciplina;
+		this.nivelDisciplina = nivelDisciplina;
+	}
+
+	public String getNomeDisciplina() {
+		return nomeDisciplina;
+	}
+
+	public void setNomeDisciplina(String nomeDisciplina) {
+		this.nomeDisciplina = nomeDisciplina;
+	}
+
+	public int getNivelDisciplina() {
+		return nivelDisciplina;
+	}
+
+	public void setNivelDisciplina(int nivelDisciplina) {
+		this.nivelDisciplina = nivelDisciplina;
+	}
+	
+	
+
+
+}
