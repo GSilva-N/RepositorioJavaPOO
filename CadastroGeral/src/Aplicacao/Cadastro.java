@@ -2,6 +2,8 @@ package Aplicacao;
 import java.util.Locale;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 import Entidades.Aluno;
 import Entidades.Disciplina;
 import Entidades.Pessoa;
@@ -18,6 +20,7 @@ public class Cadastro {
 		
 		Disciplina disciplinaTeste = new Disciplina("Português");
 		Disciplina disciplinaTeste2 = new Disciplina("Matemática");
+		
 					
 	}
 }
