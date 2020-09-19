@@ -102,11 +102,7 @@ public class Estoque {
 			{
 				System.out.println(cal.getCor()+" "+cal.getTamanho());
 			}
-		}
-		
-		
-		
-
+		}	
 	}
 
 }
